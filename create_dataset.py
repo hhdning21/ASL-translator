@@ -5,7 +5,8 @@ import pickle
 import numpy as np
 
 # Import MediaPipe hand detection
-import mediapipe.solutions.hands as mp_hands
+import mediapipe.python.solutions.hands as mp_hands
+import mediapipe.python.solutions.drawing_utils as mp_drawing
 
 hands = mp_hands.Hands(static_image_mode=True, min_detection_confidence=0.5)
 
