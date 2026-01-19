@@ -24,5 +24,5 @@ data/
 ├── 0/          # Images for sign 'A'
 ├── 1/          # Images for sign 'B'
 ├── 2/          # Images for sign 'C'
-└── ...         # Add more folders for additional signs
+└── ...         ...
 ```
