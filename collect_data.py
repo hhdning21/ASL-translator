@@ -5,7 +5,7 @@ DATA_DIR = './data'
 if not os.path.exists(DATA_DIR):
     os.makedirs(DATA_DIR)
 
-number_of_classes = 3 # Start with 3 signs (e.g., A, B, C)
+number_of_classes = 26 # Start with 3 signs (e.g., A, B, C)
 dataset_size = 100    # 100 images per sign
 
 cap = cv2.VideoCapture(0)

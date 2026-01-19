@@ -15,7 +15,7 @@ hands = mp_hands.Hands(static_image_mode=False, min_detection_confidence=0.5)
 cap = cv2.VideoCapture(0)
 
 # Map folder names to actual letters
-labels_dict = {'0': 'A', '1': 'B', '2': 'C'} 
+labels_dict = {str(i): chr(65+i) for i in range(26)}  # 0='A', 1='B', ..., 25='Z'
 
 while True:
     ret, frame = cap.read()
